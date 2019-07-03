@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://is219s19bun-p1.herokuapp.com/index.html">About Me</a>
+                    <a href="https://is219s19bun-p1.herokuapp.com/">About Me</a>
                 </div>
             </div>
         </div>
