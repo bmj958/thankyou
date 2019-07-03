@@ -85,7 +85,6 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://is219s19bun-p1.herokuapp.com">About Me</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
