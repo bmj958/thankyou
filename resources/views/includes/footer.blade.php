@@ -1,1 +1,3 @@
-<div id="copyright text-right">© Copyright 2019 MinJoo Bun</div>
+<footer class="container">
+    <p>&copy; Company 2017-2019</p>
+</footer>
