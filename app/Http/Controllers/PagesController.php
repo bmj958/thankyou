@@ -9,11 +9,11 @@ class PagesController extends Controller
     function home() {
         return View('pages.home');
     }
-        function about() {
+    function about() {
         return View('pages.about');
     }
     function contact() {
-    return View('pages.contact');
+        return View('pages.contact');
     }
     function store(Request $request) {
 
