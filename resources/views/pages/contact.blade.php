@@ -2,8 +2,7 @@
 @section('content')
    <h1>Contact</h1>
 
-    <form role="form" id ="contact-form" class="contact-form" method="POST" action="">
-        {{ csrf_field() }}
+    <form role="form" id ="contact-form" class="contact-form" method="POST" action="{{route('contact.store')}}">
 
         <div class="row">
             <div class="col-md-6">

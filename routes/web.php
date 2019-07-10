@@ -11,19 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-    return View::make('pages.home');
-});
-Route::get('about', function()
-{
-    return View::make('pages.about');
-});
-Route::get('projects', function()
-{
-    return View::make('pages.projects');
-});
-Route::get('contact', function()
-{
-    return View::make('pages.contact');
-});
+Route::get('/', 'PagesController@home')->name('home');
+Route::get('/about', 'PagesController@about')->name('about');
+Route::get('/contact', 'PagesController@contact')->name('contact');
+Route::get('/post', 'PagesController@store')->name('contact.store');
